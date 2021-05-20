@@ -1,4 +1,4 @@
-How to pull Project from Github to eclipse
+  How to pull Project from Github to eclipse
 
 Go to Eclipse Upper Left Corner, Click on File then you're able to see a dropdown, 
 click on Import, and a new window will appear.
