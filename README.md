@@ -1,4 +1,5 @@
   How to pull Project from Github to eclipse
+  -------------------------------------------
 
 Go to Eclipse Upper Left Corner, Click on File then you're able to see a dropdown, 
 click on Import, and a new window will appear.
@@ -17,3 +18,12 @@ When it is done, you're able to see under project, extend report folder under th
 there is another file named (ExtentReportResults.html)
 Right click on this file and open with web browser and you will be able to see report and if test cases
 fail you will be able to see with screen shot report.
+
+Requirements to Run Project.
+---------------------------
+
+Java, Maven, TestNG, Log 4J, Extend Report Automation Starter
+This is a simple project that would allow anyone to get up and running with Java, Maven, Selenium and TestNG. 
+It also explains how to execute a simple test that will assert the title of a page.
+Currently the project has one test that will navigate to (https://www.saucedemo.com/) and 
+verify the title matches Virtual Facility
