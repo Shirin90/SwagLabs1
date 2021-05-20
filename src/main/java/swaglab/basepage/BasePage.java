@@ -15,7 +15,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class BasePage {
-public static Logger logger;
+	
+	public static Logger logger;
 	
 	public static Properties prop;
 	public static WebDriver driver;

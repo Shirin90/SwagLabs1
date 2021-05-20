@@ -9,10 +9,14 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@CucumberOptions(plugin = { "pretty", "json:target/cucumber-reports/cucumber.json" },
-
-		features = "Features/", glue = { "swaglab.stepdef",
-				"swagelab.hooks" }, tags = "@sanity", monochrome = true, dryRun = false)
+@CucumberOptions(
+		plugin = { "pretty", "json:target/cucumber-reports/cucumber.json" },
+		features = "Features/", 
+		glue = { "swaglab.stepdef",
+				"swagelab.hooks" }, 
+		tags = "@sanity", 
+		monochrome = true, 
+		dryRun = false)
 public class MyRunner {
 
 	private TestNGCucumberRunner testNGCucumberRunner;
